@@ -1,6 +1,6 @@
 # Snihirou Pavel
-minSizeItemsk, Belarus
- * Phone number: +375(29)1328505 Viber/Telegram - preferred
+Minsk, Belarus
+ * Phone number: +375(29)1328505 Viber/Telegram - prefere
  * e-mail: bypavelsnigirev@gmail.com
 
 Graduated form Belarussian State University of Informatics and Radioelectronics from 2018. 
@@ -20,11 +20,12 @@ It was not serious for me, but not today. I have been stadying JavaScript for 4 
 - Photoshop (basic)
 - Sony Vegas
 - Borland Delphi (labs at University)
-
 ### Soft Skills
 - I am really open person and I have expirence working in a team like a ingineer-constructor.
-- English level: Pre-Intermediate. But I have good expireence with native speakers.
-### Expirience
+- English level: Pre-Intermediate. 
+    - Graduated English courses.
+    - I have good experience with native speakers. I have a friend and he is a native. He lives in Minks.
+### Experience
 #### Login Page on Ionic framework (HTML/CSS)
 [GitHub](https://github.com/greatorangejuice/ionic-page/tree/master/src/app/home)
 #### Tasks on CodeWars
