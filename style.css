@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ------------------- HEADER -------------------  */
+header {
+    background: #454545;
+}
+
+nav {
+    margin: 0 auto;
+    max-width: 1024px;
+    background: #454545;
+}
+
+.logo {
+    flex: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a {
+    color: rgb(212, 218, 214);
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: rgba(27, 122, 91, 150);
+}
+
+li {
+    list-style-type: none;
+}
+
+nav li {
+    list-style-type: none;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+.menu {
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu_item {
+    margin: 10px;
+}
+
+h1 {
+    color: rgb(212, 218, 214);
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+/* 
+@media all and (max-width: 520px) {
+    .menu {
+      flex-wrap: wrap;
+    }
+    .menu > li {
+      flex: 1 1 50%;
+    }
+    
+  } */
+
+/* --------------- MAIN --------------- */
+
+
+article {
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+.circle_photo {
+    width: 150px;
+    height: 150px;
+    background: url(/assets/elmo.jpg);
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 80px;
+    border: 1px solid #454545;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.resources a {
+    color: green;
+    font-weight: 700;
+}
