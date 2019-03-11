@@ -14,6 +14,11 @@ span {
     font-family: 'Raleway', sans-serif;
 }
 
+h3,
+h4 {
+    text-align: center;
+}
+
 /* ------------------- HEADER -------------------  */
 header {
     background: #454545;
@@ -122,7 +127,7 @@ article {
 .article_title {
     display: flex;
     justify-content: center;
-    margin: 10px;
+    margin: 20px;
 }
 
 .article_summary {
@@ -153,18 +158,56 @@ article {
 
 }
 
-h3 {
-    text-align: center;
-}
-
-.bsuir-logo {
-    width: 100px;
-    height: 100px;
-    background: url(./assets/bsuir.png);
+.logo_article {
     -moz-border-radius: 50px;
     -webkit-border-radius: 50px;
     border-radius: 50px;
+    overflow: hidden;
+    margin-top: 10px;
     background-repeat: no-repeat;
     background-position: 50%;
-    overflow: hidden;
+}
+
+.bsuir{
+    width: 100px;
+    height: 100px;
+    background: url(./assets/bsuir.png);
+
+}
+
+.polyglot{
+    width: 120px;
+    height: 120px;
+    background: url(./assets/polyglot.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.article_skills {
+    margin-top: 20px;
+}
+
+.skill_boxes ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+/* .skill_boxes li {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+} */
+
+.item_box {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 90px;
+    height: 50px;
+    background: #252525;
+    margin: 10px;
+    color: white;
 }
