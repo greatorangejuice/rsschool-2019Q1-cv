@@ -2,6 +2,17 @@
     margin: 0;
     padding: 0;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p, 
+span {
+    font-family: 'Raleway', sans-serif;
+}
 
 /* ------------------- HEADER -------------------  */
 header {
@@ -42,11 +53,11 @@ nav li {
 }
 
 .menu {
-    min-height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    min-height: 50px;
 }
 
 .menu_item {
@@ -72,6 +83,9 @@ h1 {
 
 /* --------------- MAIN --------------- */
 
+main {
+    margin: 10px;
+}
 
 article {
     margin: 0 auto;
@@ -90,7 +104,67 @@ article {
     background-position: 50%;
 }
 
+.resources {
+    text-align: center;
+}
+
 .resources a {
     color: green;
     font-weight: 700;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.article_title {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.article_summary {
+    max-width: 400px;
+    margin-left: 10px;
+}
+
+.sideline {
+    position: relative;
+    top: 10px;
+    margin: 0 5px;
+    width: 4px;
+    height: 4px;
+    border-radius: 100%;
+    background: #252525;
+}
+
+.education {
+    justify-content: center;
+    align-items: center;
+}
+
+.article_education{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h3 {
+    text-align: center;
+}
+
+.bsuir-logo {
+    width: 100px;
+    height: 100px;
+    background: url(./assets/bsuir.png);
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    overflow: hidden;
 }
