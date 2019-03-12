@@ -1,0 +1,385 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+span {
+    font-family: 'Raleway', sans-serif;
+}
+
+h3,
+h4 {
+    text-align: center;
+}
+
+/* ------------------- HEADER -------------------  */
+
+header {
+    background: #454545;
+}
+
+nav {
+    margin: 0 auto;
+    max-width: 1024px;
+    background: #454545;
+}
+
+.logo {
+    flex: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a {
+    color: rgb(212, 218, 214);
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: rgba(27, 122, 91, 150);
+}
+
+li {
+    list-style-type: none;
+}
+
+nav li {
+    list-style-type: none;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 50px;
+}
+
+.menu_item {
+    margin: 10px;
+}
+
+h1 {
+    color: rgb(212, 218, 214);
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+@media all and (max-width: 520px) {
+    .menu {
+        flex-wrap: wrap;
+    }
+
+    .menu>li {
+        flex: 1 1 50%;
+    }
+
+}
+
+/* --------------- MAIN --------------- */
+
+main {
+    margin: 10px;
+}
+
+article {
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+.circle_photo {
+    width: 150px;
+    height: 150px;
+    background: url(/assets/elmo.jpg);
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 80px;
+    border: 1px solid #454545;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.resources {
+    text-align: center;
+}
+
+.resources a {
+    color: green;
+    font-weight: 700;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.article_title {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.article_summary {
+    max-width: 400px;
+    margin-left: 10px;
+}
+
+.sideline {
+    position: relative;
+    top: 12px;
+    margin: 0 5px;
+    width: 4px;
+    height: 4px;
+    border-radius: 100%;
+    background: #252525;
+}
+
+.education {
+    justify-content: center;
+    align-items: center;
+}
+
+.article_education {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_article {
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    overflow: hidden;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.bsuir {
+    width: 100px;
+    height: 100px;
+    background: url(./assets/bsuir.png);
+}
+
+.polyglot {
+    width: 120px;
+    height: 120px;
+    background: url(./assets/polyglot.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.additional-info {
+    text-align: center;
+}
+
+.article_skills {
+    margin-top: 20px;
+}
+
+.skill_boxes ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.item_box {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.item-wrapper {
+    text-align: center;
+    width: 90px;
+    height: 50px;
+    background: #252525;
+    border-radius: 50%;
+    margin: 10px;
+    color: white;
+}
+
+.item-wrapper li {
+    margin: 15px;
+    text-align: center;
+}
+
+li .item_box {
+    text-align: center;
+}
+
+/* -------------------- FOOTER -------------------- */
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div.contact {
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact a {
+    color: #252525;
+}
+
+.location,
+.mail,
+.phone,
+.telegram {
+    display: flex;
+}
+
+.location span,
+.mail span,
+.phone span,
+.telegram span {
+    margin-left: 10px;
+}
+
+.location_item:hover {
+    color: #D54739;
+}
+
+.phone_item:hover {
+    color: purple;
+}
+
+.mail_item:hover {
+    color: #D54739;
+}
+
+.telegram_item:hover {
+    color: #31A7DF;
+}
+
+.item_social {
+    width: 24px;
+    height: 24px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #252525;
+}
+
+.bottom-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    margin-top: 5px;
+    background: #252525;
+}
+
+.copyring {
+    margin: 0 auto;
+    color: white;
+}
+
+/* -------------------- INTEGRATED SOCIAL ICONS -------------------- */
+
+@font-face {
+    font-family: 'fontello';
+    src: url('../assets/font/fontello.eot?75273606');
+    src: url('../assets/font/fontello.eot?75273606#iefix') format('embedded-opentype'),
+        url('../assets/font/fontello.woff2?75273606') format('woff2'),
+        url('../assets/font/fontello.woff?75273606') format('woff'),
+        url('../assets/font/fontello.ttf?75273606') format('truetype'),
+        url('../assets/font/fontello.svg?75273606#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+      font-family: 'fontello';
+      src: url('../font/fontello.svg?75273606#fontello') format('svg');
+    }
+  }
+  */
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    /* opacity: .8; */
+
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+
+    /* fix buttons height, for twitter bootstrap */
+    line-height: 1em;
+
+    /* Animation center compensation - margins should be symmetric */
+    /* remove if not needed */
+    margin-left: .2em;
+
+    /* you can be more comfortable with increased icons size */
+    /* font-size: 120%; */
+
+    /* Font smoothing. That was taken from TWBS */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Uncomment for 3D effect */
+    /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-mail:before {
+    content: '\e800';
+}
+
+/* '' */
+.icon-location:before {
+    content: '\e801';
+}
+
+/* '' */
+.icon-mobile:before {
+    content: '\f10b';
+}
+
+/* '' */
+.icon-telegram:before {
+    content: '\f2c6';
+}
+
+/* '' */
