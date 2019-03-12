@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 h1,
@@ -139,7 +140,7 @@ article {
 
 .sideline {
     position: relative;
-    top: 10px;
+    top: 12px;
     margin: 0 5px;
     width: 4px;
     height: 4px;
